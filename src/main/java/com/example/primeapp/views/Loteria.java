@@ -80,6 +80,7 @@ public class Loteria extends Stage implements EventHandler {
         escena = new Scene(vBox,350,400);
 
 
+
     }
 
     private void CrarPlantilla(){
