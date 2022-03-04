@@ -87,7 +87,7 @@ public class Loteria extends Stage implements EventHandler {
         for (int i =0; i<2; i++){
             for (int j =0; j<4; j++){
                 arBtnPlantilla[j][i]=new Button();
-                file = new File("src/main/java/com/example/primeapp/Imagenes/barril.jpeg"   );
+                file = new File("src/main/java/com/example/primeapp/Imagenes/" + arImagenes[i]  );
                 imgCarta = new Image(file.toURI().toString());
                 ImageView imv = new ImageView(imgCarta);
                 imv.setFitWidth(50);
